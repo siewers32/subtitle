@@ -3,7 +3,7 @@ import time
 def strtotime(s):
     dt = datetime.strptime(s, '%H:%M:%S,%f').time()
 
-def diff(t, td):
+def calcTimeDiff(t, td):
     # oorspronkelijke tijd
     # hours, minutes, seconds optellen bij oorspronkelijke tijd
     t = datetime.strptime(t, '%H:%M:%S,%f')
@@ -14,39 +14,39 @@ def diff(t, td):
 def counter(c):
     return c + 1
 
+def adjustTime(line, minfragment, fragment):
+    try:
+        timestamps = line.split(" --> ") 
+        if fragment >= minfragment:
+            # do the math...
+            begin = calcTimeDiff(timestamps[0],td)
+            end = calcTimeDiff(timestamps[1].strip('\n'),td)
+            return f"{begin[:-3]} --> {end[:-3]}\n"
+        else:
+            return f"{timestamps[0]} --> {timestamps[1]}\n"
+    except ValueError as ve:
+        print("something wrong with values in timediff")       
+
+
 def convert(r, w, td, f):
     lines = r.readlines()
-    #for i in range(0, len(lines)):
-    i = -1
+    i = 0
     while i < (len(lines)-2):
-        i = i + 1
         line = lines[i]
         if line in ['\n', '\r\n'] or i == 0:
             # Eerste regel is regelnummer
             if i != 0:
                 w.write("\n")
                 i = i + 1
-            if(i+1 < len(lines)):
-                try:
-                    fnr = int(lines[i].strip(" "))
-                    print(fnr)
-                    w.write(str(fnr) + "\n")
-                    i = i + 1
-                    timestamps = lines[i].split(" --> ") 
-                    if fnr >= f:
-                        # do the math...
-                        begin = diff(timestamps[0],td)
-                        end = diff(timestamps[1].strip('\n'),td)
-                        print(begin[:-3], end[:-3])
-                        w.write(f"{begin[:-3]} --> {end[:-3]}")
-                        w.write("\n")
-                    else:
-                        w.write(f"{timestamps[0]} --> {timestamps[1]}")
-                except ValueError:
-                   pass       
+                
+            fnr = int(lines[i].strip(" "))
+            w.write(str(fnr) + "\n")
+            i = i + 1
+            w.write(adjustTime(lines[i], f, fnr))   
         else:
             pass
             w.write(lines[i])
+        i = i + 1
 
 
 f = 433 # fragmentnummer
