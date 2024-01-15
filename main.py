@@ -18,7 +18,7 @@ def convert(r, w, td, f):
     lines = r.readlines()
     #for i in range(0, len(lines)):
     i = -1
-    while i < 20:
+    while i < (len(lines)-2):
         i = i + 1
         line = lines[i]
         if line in ['\n', '\r\n'] or i == 0:
@@ -39,6 +39,7 @@ def convert(r, w, td, f):
                         end = diff(timestamps[1].strip('\n'),td)
                         print(begin[:-3], end[:-3])
                         w.write(f"{begin[:-3]} --> {end[:-3]}")
+                        w.write("\n")
                     else:
                         w.write(f"{timestamps[0]} --> {timestamps[1]}")
                 except ValueError:
@@ -48,9 +49,9 @@ def convert(r, w, td, f):
             w.write(lines[i])
 
 
-f = 980 # fragmentnummer
-td = timedelta(hours=0, minutes=0, seconds=5) # timediff
-r = open("test.txt", "r") # subtitle file
-w = open("new.txt", "w") # new file
+f = 433 # fragmentnummer
+td = timedelta(hours=0, minutes=0, seconds=4) # timediff
+r = open("subtitle.srt", "r") # subtitle file
+w = open("S01_E1__Care_and_protection.NL.srt", "w") # new file
 convert(r,w,td,f)
 

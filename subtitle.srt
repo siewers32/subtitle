@@ -468,7 +468,7 @@ Een goeie raad. Twee eigenlijk.
 
 103
 00:13:45,047 --> 00:13:50,246
-E�n: zeg nooit tegen Mullett
+EÈn: zeg nooit tegen Mullett
 dat ik er ben.
 
 104
@@ -529,7 +529,7 @@ Hoe heet je?
 
 116
 00:14:57,647 --> 00:15:01,560
-Clive, h�?
+Clive, hÈ?
 Nou, jij rijdt, Clive.
 
 117
@@ -664,7 +664,7 @@ Nog 'n paar vragen, Linda.
 
 145
 00:18:38,127 --> 00:18:42,564
-U denkt dat ze dood is, h�?
+U denkt dat ze dood is, hÈ?
 Dat ik 'r vermoord heb.
 
 146
@@ -673,7 +673,7 @@ Ga zitten, Linda.
 
 147
 00:18:46,647 --> 00:18:49,559
-U denkt 't echt, h�?
+U denkt 't echt, hÈ?
 
 148
 00:18:49,647 --> 00:18:55,563
@@ -884,7 +884,7 @@ en laat ze 'behandelen'.
 
 192
 00:22:59,887 --> 00:23:02,321
-Je zit bij Jack, h�?
+Je zit bij Jack, hÈ?
 Hoe gaat dat?
 
 193
@@ -1085,7 +1085,7 @@ Meestal is 't vroeger.
 
 236
 00:26:40,887 --> 00:26:45,836
-Nee. Linda houdt haar priv�-leven
+Nee. Linda houdt haar privÈ-leven
 gescheiden van haar...
 
 237
@@ -1105,7 +1105,7 @@ in Zuid.
 
 240
 00:27:04,407 --> 00:27:07,797
-Dat zijn wel dolle zondagen, h�?
+Dat zijn wel dolle zondagen, hÈ?
 
 241
 00:27:07,887 --> 00:27:12,324
@@ -1166,7 +1166,7 @@ geen huiszoekingen meer.
 
 253
 00:28:21,389 --> 00:28:25,780
-Jij co�rdineert alles.
+Jij coÛrdineert alles.
 - Formulieren invullen.
 
 254
@@ -1186,7 +1186,7 @@ lk zal ze niet te veel laten pakken.
 257
 00:28:37,789 --> 00:28:41,782
 Er wordt alleen gepakt
-als iemand anders l��t pakken.
+als iemand anders l··t pakken.
 
 258
 00:28:41,869 --> 00:28:48,183
@@ -1223,7 +1223,7 @@ Wat is er al doorzocht?
 265
 00:29:24,549 --> 00:29:28,462
 Ooggetuigen?
-- Maar ��n waar we wat aan hebben.
+- Maar ÈÈn waar we wat aan hebben.
 
 266
 00:29:28,549 --> 00:29:33,464
@@ -1257,11 +1257,11 @@ Daar is 't lekker warm.
 272
 00:30:19,549 --> 00:30:23,462
 lk krijg twee pond.
-- E�n, hadden we afgesproken.
+- EÈn, hadden we afgesproken.
 
 273
 00:30:23,549 --> 00:30:27,462
-Voor 't potje, �n voor de tip.
+Voor 't potje, Èn voor de tip.
 - Moet je horen.
 
 274
@@ -1389,7 +1389,7 @@ Nee, ik ga 't haar wel zeggen.
 
 301
 00:32:18,549 --> 00:32:21,461
-Je hebt je moeders jas geleend, h�?
+Je hebt je moeders jas geleend, hÈ?
 
 302
 00:32:21,549 --> 00:32:24,939
@@ -1539,7 +1539,7 @@ zoveel van me houdt?
 
 333
 00:35:45,949 --> 00:35:50,864
-lk heb hier heel wat afgevree�n.
+lk heb hier heel wat afgevreeÈn.
 Zelfs m'n eerste keer was hier.
 
 334
@@ -1853,7 +1853,7 @@ lk zit onder de kattenharen.
 
 400
 00:43:20,589 --> 00:43:22,500
-Tja, dat pak, h�.
+Tja, dat pak, hÈ.
 
 401
 00:43:22,589 --> 00:43:25,501
@@ -1911,7 +1911,7 @@ Gewoon doorgaan.
 
 413
 00:44:09,069 --> 00:44:13,506
-We weten niet zeker of ie dood is, h�?
+We weten niet zeker of ie dood is, hÈ?
 
 414
 00:44:13,589 --> 00:44:17,502
@@ -3120,7 +3120,7 @@ en wel gevonden wordt.
 668
 01:12:07,491 --> 01:12:12,406
 Het skelet loopt de lik in,
-m�t die 40.000 pond bij zich...
+mÈt die 40.000 pond bij zich...
 
 669
 01:12:12,491 --> 01:12:17,929
@@ -3238,7 +3238,7 @@ lk kon er absoluut niet onderuit.
 
 694
 01:14:13,011 --> 01:14:16,924
-Even na twee�n hoorde ik op de bank
+Even na tweeÈn hoorde ik op de bank
 van Harrington...
 
 695
@@ -3356,7 +3356,7 @@ Ja, dat zal best.
 
 720
 01:16:30,491 --> 01:16:33,927
-Jij bent dood, h� Tracey?
+Jij bent dood, hÈ Tracey?
 
 721
 01:16:34,011 --> 01:16:36,923
@@ -3671,7 +3671,7 @@ Kan je dan helemaal niks?
 790
 01:22:25,871 --> 01:22:29,784
 lk heb 't medisch dossier
-van die conci�rge, Albert Barrow.
+van die conciÈrge, Albert Barrow.
 
 791
 01:22:29,871 --> 01:22:33,307
@@ -3685,7 +3685,7 @@ Hoewel Barrow 19 maanden geleden
 793
 01:22:37,391 --> 01:22:41,782
 ...belnvloedt dat z'n werk
-als conci�rge geenszins.
+als conciÈrge geenszins.
 
 794
 01:22:41,871 --> 01:22:44,783
@@ -3763,7 +3763,7 @@ voor 'n trein sprong.
 
 810
 01:23:51,391 --> 01:23:54,781
-Het zit je vandaag niet mee, h�?
+Het zit je vandaag niet mee, hÈ?
 
 811
 01:23:57,391 --> 01:24:00,781
@@ -3845,7 +3845,7 @@ lk hoef er niet nog een.
 828
 01:26:05,391 --> 01:26:10,784
 Omdat de kist leeg was.
-Daarom weet u 't, h�?
+Daarom weet u 't, hÈ?
 
 829
 01:26:10,871 --> 01:26:12,782
@@ -3862,7 +3862,7 @@ Mijn zoon had zoveel...
 
 832
 01:26:21,391 --> 01:26:24,781
-...grandioze idee�n.
+...grandioze ideeÈn.
 Hij dacht dat ie slim was.
 
 833
@@ -3899,7 +3899,7 @@ van z'n moeder?
 
 840
 01:26:57,871 --> 01:27:02,786
-lk beheerde de financi�n
+lk beheerde de financiÈn
 van 'n oude dame, Mrs Kingsley.
 
 841
@@ -3914,7 +3914,7 @@ Die 25.000 was 'n makkie.
 
 843
 01:27:11,871 --> 01:27:13,782
-Niet erg eerlijk, h�?
+Niet erg eerlijk, hÈ?
 
 844
 01:27:13,871 --> 01:27:18,308
@@ -4133,7 +4133,7 @@ Stomme zak.
 
 891
 01:30:43,871 --> 01:30:47,307
-lk kon nog maar ��n ding doen...
+lk kon nog maar ÈÈn ding doen...
 
 892
 01:30:47,391 --> 01:30:53,068
@@ -4542,3 +4542,5 @@ Half negen.
 981
 01:39:34,391 --> 01:39:36,746
 Karren maar.
+
+Gedownload van Bierdopje.com
