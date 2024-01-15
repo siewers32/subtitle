@@ -11,18 +11,26 @@ def diff(t, td):
     # print((t + td).strftime("%H:%M:%S,%f"))
     return (t + td).strftime("%H:%M:%S,%f")
 
+def counter(c):
+    return c + 1
+
 def convert(r, w, td, f):
     lines = r.readlines()
-    for i in range(0, len(lines)):
+    #for i in range(0, len(lines)):
+    i = -1
+    while i < 20:
+        i = i + 1
         line = lines[i]
-        if line in ['\n', '\r\n']:
-            w.write(lines[i])
+        if line in ['\n', '\r\n'] or i == 0:
             # Eerste regel is regelnummer
-            i = i + 1
+            if i != 0:
+                w.write("\n")
+                i = i + 1
             if(i+1 < len(lines)):
                 try:
                     fnr = int(lines[i].strip(" "))
                     print(fnr)
+                    w.write(str(fnr) + "\n")
                     i = i + 1
                     timestamps = lines[i].split(" --> ") 
                     if fnr >= f:
@@ -33,11 +41,12 @@ def convert(r, w, td, f):
                         w.write(f"{begin[:-3]} --> {end[:-3]}")
                     else:
                         w.write(f"{timestamps[0]} --> {timestamps[1]}")
-
                 except ValueError:
                    pass       
         else:
+            pass
             w.write(lines[i])
+
 
 f = 980 # fragmentnummer
 td = timedelta(hours=0, minutes=0, seconds=5) # timediff
