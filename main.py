@@ -1,68 +1,123 @@
 from datetime import datetime, timedelta 
 import time
-def strtotime(s):
-    dt = datetime.strptime(s, '%H:%M:%S,%f').time()
 
 def diff(t, td):
-    # oorspronkelijke tijd
-    # hours, minutes, seconds optellen bij oorspronkelijke tijd
     t = datetime.strptime(t, '%H:%M:%S,%f')
-    # print(t + td).strftime("%H:%M:%S,%f")
-    # print((t + td).strftime("%H:%M:%S,%f"))
     return (t + td).strftime("%H:%M:%S,%f")
 
-def convert(r, td, f, l):
-    skiplines = 0
-    new_sub = ""
-    lines = r.readlines()
+def get_fragment_linenumbers(lines):
+    fs = [0]
+    fragments = []
     for i in range(0, len(lines)):
-        if skiplines > 0 :
-            #pass
-            skiplines = skiplines-1
-        else :
-            skiplines = 0
-            line = lines[i]
-            if line in ['\n', '\r\n']:
-                skiplines = 2
-                # Eerste regel is regelnummer
-                # w.write(line) # lege regel
-                new_sub = new_sub + line
-                i = i + 1
-                if(i+1 < len(lines)):
-                    try:
-                        fnr = int(lines[i].strip(" "))
-                        w.write(str(fnr + l) + "\n") # nieuw regelnummer
-                        i = i + 1
-                        timestamps = lines[i].split(" --> ") 
-                        if fnr >= f:
-                            # do the math...
-                            begin = diff(timestamps[0],td)
-                            end = diff(timestamps[1].strip('\n'),td)
-                            print(begin[:-3], end[:-3])
-                            # w.write(f"{begin[:-3]} --> {end[:-3]}\n") # nieuwe timestamp
-                            new_sub = f"{new_sub}{begin[:-3]} --> {end[:-3]}\n"
-                            print(f"{new_sub}{begin[:-3]} --> {end[:-3]}\n")
+        if lines[i] in ["\n","\r\n"]:
+            fs.append(i+1)
+    for x in range(0, len(fs)):
+        try:
+            fragments.append([fs[x], fs[x+1]])
+        except IndexError as e:
+            fragments.append([fs[x], len(lines)])
+            pass
+        except Exception as e:
+            print(e)
+    return fragments
 
-                        else:
-                            # w.write(f"{timestamps[0]} --> {timestamps[1]}")
-                            new_sub = f"{new_sub}{timestamps[0]} --> {timestamps[1]}"
+def create_dictionaries(lines):
+    # fd = {"fnr": 0, "start": "00:00:00,000", "end": "00:00:00,000", "tekst": ""}
+    framelist = []
+    for i in get_fragment_linenumbers(lines):
+        fd = {}
+        frame = lines[i[0]:i[1]]
+        # t = addtime(frame[1], timediff)
+        t = frame[1].split(" --> ") 
+        fd["fnr"] = int(frame[0].strip("\n"))
+        fd["start"] = t[0].strip("\n")
+        fd["end"] = t[1].strip("\n")
+        fd["tekst"] = ''.join(frame[2:]).strip("\n\n")
+        framelist.append(fd)
+    return framelist
 
-                    except ValueError:
-                        pass       
-            else:
-                # w.write(lines[i]) # overige regels
-                new_sub = new_sub + lines[i];
-    return new_sub
+def adjust_time_abs(startframe, endframe, dictlist, timediff):
+    for f in dictlist:
+        if f["fnr"] >= startframe and f["fnr"] <= endframe:
+            # print(f["start"])
+            f["start"] = diff(f["start"], timediff)[:-3]
+            f["end"] = diff(f["end"], timediff)[:-3]
+        print(f)
+    return dictlist
 
-# 1799
-# 01:42:56,103 --> 01:43:00,165
+def adjust_time_rel(startframe, endframe, dictlist, perc):
+    for f in dictlist:
+        if f["fnr"] > startframe and f["fnr"] <= endframe:
+            # print(f["start"])
+            f["start"] = time_with_perc(perc, f["start"])[:-3]
+            f["end"] = time_with_perc(perc, f["end"])[:-3]
+            print(f)
+    return dictlist
 
-f = 1 # fragmentnummer
-l = 0 # regelnummer
-td = timedelta(hours=0, minutes=0, seconds=14) # timediff
-r = open("subtitle.txt", "r") # subtitle file
+
+def time_with_perc(perc, hmsf):
+    t0 = datetime.strptime("00:00:00,000", "%H:%M:%S,%f")
+    t1 = datetime.strptime(hmsf, '%H:%M:%S,%f')
+    delta = t1 - t0
+    secs = delta.total_seconds()
+    total = (secs * (perc/100))
+    s0 = timedelta(milliseconds=int(round((total * 1000),0)))
+    d = s0 + t0
+    return datetime.strftime(d, "%H:%M:%S,%f")
+
+
+# def time_in_seconds(hms):
+#     t0 = datetime.strptime("00:00:00,000", "%H:%M:%S,%f")
+#     t1 = datetime.strptime(hms, '%H:%M:%S,%f')
+#     delta = t1 - t0
+#     return delta.total_seconds()  
+
+def calc_time_perc(ts1, ts2):
+    # convert time string to datetime
+    t0 = datetime.strptime("00:00:00,000", "%H:%M:%S,%f")
+    t1 = datetime.strptime(ts1, "%H:%M:%S,%f")
+    t2 = datetime.strptime(ts2, "%H:%M:%S,%f")
+    delta1 = t1 - t0
+    orig_secs = delta1.total_seconds()
+    delta2 = t2 - t0
+    new_secs = delta2.total_seconds()
+    perc = (new_secs / orig_secs) * 100
+    return (perc)
+
+# def get_time_percentage(hms, sec2):
+#     sec1 = time_in_seconds(hms)
+#     return int(sec1)/int(sec2)
+
+
+
+
+
 # convert(r,td,f, l)
-w = open("bla.srt", "w") # new file
-w.write(convert(r,td,f, l))
+# w = open("bla.srt", "w") # new file
+# w.write(convert(lines,td,f, l))
+# for i in dictlist:
+#     print(i) 
+# print(adjust_time_abs(2, 3, dictlist, timedelta(hours=2, minutes=0, seconds=11)))
 
+# print(time_in_seconds('00:03:33'))
+# print(calc_time_difference('01:00:55','01:01:53'))
+# print(adjust_time_rel(1, 5, dictlist, "00:01:04,951", "00:02:00,00"))
 
+r = open("test.txt", "r") # subtitle file
+
+lines = r.readlines()
+dictlist = create_dictionaries(lines)
+
+perc = calc_time_perc("01:29:52,178", "01:59:52,178")
+
+# adjust_time_rel(1, 5000, dictlist, perc)
+# adjust_time_abs(1, 5000, dictlist, timediff)
+
+timediff = timedelta(hours=0, minutes=2, seconds=58) # timediff
+new_sub_dict = adjust_time_abs(1, 5000, dictlist, timediff)
+# new_sub_dict = adjust_time_rel(1, 5000, dictlist, perc)
+
+w = open("blab.srt", "w")
+for d in new_sub_dict:
+    w.write(f"{d['fnr']}\n{d['start']} --> {d['end']}\n{d['tekst']}\n\n")
+   
