@@ -471,8 +471,14 @@ Now tell me, why can't he get
 something for you on Logan...
 
 103
+<<<<<<< HEAD
 00:08:54,048 --> 00:08:55,648
 ...and get rid of all your opposition?
+=======
+00:13:45,047 --> 00:13:50,246
+EÈn: zeg nooit tegen Mullett
+dat ik er ben.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 104
 00:08:55,781 --> 00:08:58,580
@@ -530,9 +536,15 @@ Tell her you don't care about working
 here anymore, you're quitting.
 
 116
+<<<<<<< HEAD
 00:09:30,674 --> 00:09:33,507
 And tomorrow, you release
 that statement to the press.
+=======
+00:14:57,647 --> 00:15:01,560
+Clive, hÈ?
+Nou, jij rijdt, Clive.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 117
 00:09:34,574 --> 00:09:38,540
@@ -659,9 +671,15 @@ Good night, Junior.
 Oh, oh, Fergy, I am sorry,
 
 145
+<<<<<<< HEAD
 00:11:31,786 --> 00:11:33,951
 I forgot to tell you this morning,
 but could you look under my hood.
+=======
+00:18:38,127 --> 00:18:42,564
+U denkt dat ze dood is, hÈ?
+Dat ik 'r vermoord heb.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 146
 00:11:34,051 --> 00:11:36,085
@@ -669,8 +687,13 @@ I think I've got a loose plug wire
 or something.
 
 147
+<<<<<<< HEAD
 00:11:36,185 --> 00:11:37,085
 Yeah.
+=======
+00:18:46,647 --> 00:18:49,559
+U denkt 't echt, hÈ?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 148
 00:11:37,484 --> 00:11:38,317
@@ -877,9 +900,15 @@ Hotheads?
 What are they hot about?
 
 192
+<<<<<<< HEAD
 00:21:18,611 --> 00:21:21,677
 He's been negotiating with
 the conglomerate, dickering to sell.
+=======
+00:22:59,887 --> 00:23:02,321
+Je zit bij Jack, hÈ?
+Hoe gaat dat?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 193
 00:21:22,144 --> 00:21:24,576
@@ -1080,9 +1109,15 @@ from the opera board meeting.
 That was at seven-thirty.
 
 236
+<<<<<<< HEAD
 00:23:34,286 --> 00:23:37,718
 Oh, maybe you better operate this
 because I'm not sure how it...
+=======
+00:26:40,887 --> 00:26:45,836
+Nee. Linda houdt haar privÈ-leven
+gescheiden van haar...
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 237
 00:23:37,818 --> 00:23:39,151
@@ -1098,9 +1133,14 @@ he's calling from a car.
 You can hear it on the recording.
 
 240
+<<<<<<< HEAD
 00:23:48,816 --> 00:23:52,349
 <i>There's no one answering at the moment.
 This is a recording device.</i>
+=======
+00:27:04,407 --> 00:27:07,797
+Dat zijn wel dolle zondagen, hÈ?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 241
 00:23:52,449 --> 00:23:54,016
@@ -1158,9 +1198,15 @@ Thank you.</i>
 <i>It's me. Hold on just a second.</i>
 
 253
+<<<<<<< HEAD
 00:24:25,443 --> 00:24:27,409
 <i>Want me to pull over and
 open that for you?</i>
+=======
+00:28:21,389 --> 00:28:25,780
+Jij coÛrdineert alles.
+- Formulieren invullen.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 254
 00:24:27,509 --> 00:24:29,075
@@ -1177,9 +1223,15 @@ I tried to get you earlier today.</i>
 silly committee meetings or something,</i>
 
 257
+<<<<<<< HEAD
 00:24:40,240 --> 00:24:42,506
 <i>Miss Bishop couldn't get you
 from the office either.</i>
+=======
+00:28:37,789 --> 00:28:41,782
+Er wordt alleen gepakt
+als iemand anders l··t pakken.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 258
 00:24:42,806 --> 00:24:47,939
@@ -1217,9 +1269,15 @@ wait up for him, will you?</i>
 something. It might not be exactly what...</i>
 
 265
+<<<<<<< HEAD
 00:25:14,867 --> 00:25:20,133
 <i>... you figured it would be, but to
 my way of thinking, it's a wise decision.</i>
+=======
+00:29:24,549 --> 00:29:28,462
+Ooggetuigen?
+- Maar ÈÈn waar we wat aan hebben.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 266
 00:25:21,366 --> 00:25:25,266
@@ -1249,6 +1307,7 @@ Well, anyway, that's it.
 He just hung up.
 
 272
+<<<<<<< HEAD
 00:25:46,528 --> 00:25:47,527
 Yeah, sure.
 
@@ -1256,6 +1315,16 @@ Yeah, sure.
 00:25:47,628 --> 00:25:50,227
 Roger... you're just as concerned
 about him as I am, aren't you?
+=======
+00:30:19,549 --> 00:30:23,462
+lk krijg twee pond.
+- EÈn, hadden we afgesproken.
+
+273
+00:30:23,549 --> 00:30:27,462
+Voor 't potje, Èn voor de tip.
+- Moet je horen.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 274
 00:25:50,461 --> 00:25:51,261
@@ -1379,9 +1448,14 @@ Aunt Dory is your father's sister?
 Yes.
 
 301
+<<<<<<< HEAD
 00:27:00,381 --> 00:27:02,981
 And on your father's side,
 were there other aunts and uncles?
+=======
+00:32:18,549 --> 00:32:21,461
+Je hebt je moeders jas geleend, hÈ?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 302
 00:27:03,480 --> 00:27:05,047
@@ -1524,8 +1598,14 @@ Oh, life would be so simple
 if you two would just get along.
 
 333
+<<<<<<< HEAD
 00:28:46,494 --> 00:28:47,761
 We're going to.
+=======
+00:35:45,949 --> 00:35:50,864
+lk heb hier heel wat afgevreeÈn.
+Zelfs m'n eerste keer was hier.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 334
 00:28:53,393 --> 00:28:55,126
@@ -1839,8 +1919,13 @@ but I'm so glad you're next in line.
 I need someone I can trust.
 
 400
+<<<<<<< HEAD
 00:35:19,656 --> 00:35:21,122
 You just leave everything to me.
+=======
+00:43:20,589 --> 00:43:22,500
+Tja, dat pak, hÈ.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 401
 00:35:22,022 --> 00:35:25,788
@@ -1901,9 +1986,14 @@ Oh, no, we don't know anything
 for sure, just yet.
 
 413
+<<<<<<< HEAD
 00:37:05,337 --> 00:37:10,436
 Oh, no, it's just that... You know,
 that's a wonderful darkroom.
+=======
+00:44:09,069 --> 00:44:13,506
+We weten niet zeker of ie dood is, hÈ?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 414
 00:37:10,735 --> 00:37:13,835
@@ -3083,8 +3173,14 @@ And don't worry about a thing.
 It's all gonna be over soon.
 
 668
+<<<<<<< HEAD
 00:52:15,235 --> 00:52:17,202
 Believe me... all soon.
+=======
+01:12:07,491 --> 01:12:12,406
+Het skelet loopt de lik in,
+mÈt die 40.000 pond bij zich...
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 669
 00:52:28,433 --> 00:52:30,333
@@ -3198,9 +3294,15 @@ I can't! I can't.
 Not with these two men here.
 
 694
+<<<<<<< HEAD
 00:56:30,589 --> 00:56:32,521
 Would you mind leaving us alone,
 please?
+=======
+01:14:13,011 --> 01:14:16,924
+Even na tweeÈn hoorde ik op de bank
+van Harrington...
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 695
 00:56:32,621 --> 00:56:34,288
@@ -3322,9 +3424,14 @@ something in the pocket of...
 Some sort of report about Everett Logan.
 
 720
+<<<<<<< HEAD
 00:57:37,643 --> 00:57:40,709
 Personal information.
 Very damaging.
+=======
+01:16:30,491 --> 01:16:33,927
+Jij bent dood, hÈ Tracey?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 721
 00:57:41,742 --> 00:57:42,942
@@ -3645,9 +3752,15 @@ Oh, I'll take care of that.
 And listen, don't you worry.
 
 790
+<<<<<<< HEAD
 01:02:38,354 --> 01:02:41,820
 We'll see each other a lot.
 Yeah, a lot.
+=======
+01:22:25,871 --> 01:22:29,784
+lk heb 't medisch dossier
+van die conciÈrge, Albert Barrow.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 791
 01:02:42,020 --> 01:02:43,620
@@ -3659,9 +3772,15 @@ I'm gonna be here for quite a while.
 You can come back later.
 
 793
+<<<<<<< HEAD
 01:02:47,552 --> 01:02:49,885
 Would you tell Maintenance
 I'll keep the desk and the chair.
+=======
+01:22:37,391 --> 01:22:41,782
+...belnvloedt dat z'n werk
+als conciÈrge geenszins.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 794
 01:02:49,985 --> 01:02:52,152
@@ -3737,9 +3856,14 @@ coming to the point?
 Oh, certainly. By the way,
 
 810
+<<<<<<< HEAD
 01:04:25,101 --> 01:04:27,668
 Miss Bishop seems unhappy,
 did something go wrong?
+=======
+01:23:51,391 --> 01:23:54,781
+Het zit je vandaag niet mee, hÈ?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 811
 01:04:28,967 --> 01:04:30,433
@@ -3819,8 +3943,14 @@ whatever she chooses.
 Uh, this must've fallen over.
 
 828
+<<<<<<< HEAD
 01:05:23,257 --> 01:05:24,757
 Lieutenant...
+=======
+01:26:05,391 --> 01:26:10,784
+Omdat de kist leeg was.
+Daarom weet u 't, hÈ?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 829
 01:05:25,124 --> 01:05:28,190
@@ -3838,9 +3968,15 @@ They're gonna meet us
 at the bottom of the grade.
 
 832
+<<<<<<< HEAD
 01:05:35,421 --> 01:05:39,588
 Oh, no, I'm awfully sorry.
 Perhaps Mr.Logan could go along, but,
+=======
+01:26:21,391 --> 01:26:24,781
+...grandioze ideeÈn.
+Hij dacht dat ie slim was.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 833
 01:05:39,687 --> 01:05:43,453
@@ -3877,9 +4013,15 @@ Sure does.
 All right, Mr.Logan, let's go.
 
 840
+<<<<<<< HEAD
 01:06:01,250 --> 01:06:04,116
 Fine. Doris will be up at the cabin
 and I wanna talk with her.
+=======
+01:26:57,871 --> 01:27:02,786
+lk beheerde de financiÈn
+van 'n oude dame, Mrs Kingsley.
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 841
 01:06:04,283 --> 01:06:06,249
@@ -3891,9 +4033,14 @@ If this does concern
 my uncle's death,
 
 843
+<<<<<<< HEAD
 01:06:09,448 --> 01:06:12,081
 I suppose, in good conscience,
 I should go along.
+=======
+01:27:11,871 --> 01:27:13,782
+Niet erg eerlijk, hÈ?
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 844
 01:06:12,581 --> 01:06:14,347
@@ -4109,9 +4256,14 @@ Oh, I can tell you that.
 You can?
 
 891
+<<<<<<< HEAD
 01:09:27,612 --> 01:09:29,945
 Yeah, I think she fired you
 for a couple of reasons.
+=======
+01:30:43,871 --> 01:30:47,307
+lk kon nog maar ÈÈn ding doen...
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
 
 892
 01:09:30,045 --> 01:09:32,478
@@ -4486,5 +4638,55 @@ evidence, Lieutenant Columbo?
 Yeah, I guess they are, it's a shame.
 
 972
+<<<<<<< HEAD
 01:14:10,294 --> 01:14:11,493
 You...
+=======
+01:38:34,631 --> 01:38:39,546
+En geef 't maatschappelijk werk
+'n seintje.
+
+973
+01:38:39,631 --> 01:38:46,070
+Een moeder die haar dochtertje
+de straat op jaagt terwijl zij thuis...
+
+974
+01:38:46,151 --> 01:38:50,064
+Maar dan wordt d'r kind afgepakt.
+
+975
+01:38:50,151 --> 01:38:54,542
+Daar gaan zij over.
+- Maar ze houdt van d'r kind.
+
+976
+01:38:54,631 --> 01:39:00,501
+Het heet niet voor niets
+Zorg en bescherming.
+
+977
+01:39:00,631 --> 01:39:07,070
+Nou, dan betalen zij ook maar
+voor die helikopter, niet?
+
+978
+01:39:07,151 --> 01:39:10,541
+En ik wil je rapport op papier, ja?
+
+979
+01:39:23,871 --> 01:39:28,547
+Neem de auto maar mee,
+dan zie ik je morgen wel weer.
+
+980
+01:39:28,631 --> 01:39:32,021
+Je mag uitslapen.
+Half negen.
+
+981
+01:39:34,391 --> 01:39:36,746
+Karren maar.
+
+Gedownload van Bierdopje.com
+>>>>>>> bad29385c1b484dad45c0a0474ec9cf7e3d0e205
