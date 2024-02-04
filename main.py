@@ -113,17 +113,15 @@ dictlist = create_dictionaries(lines)
 # adjust_time_rel(1, 5000, dictlist, perc)
 # adjust_time_abs(1, 5000, dictlist, timediff)
 
-timediff = timedelta(hours=0, minutes=0, seconds=2) # timediff
-# new_sub_dict = adjust_time_abs(90, 5000, dictlist, timediff)
-perc = calc_time_perc("01:13:54,830", "01:14:00,055")
-new_sub_dict = adjust_time_rel(0, 974, dictlist, perc)
+timediff = timedelta(hours=0, minutes=0, seconds=-21) # timediff
+new_sub_dict = adjust_time_abs(1, 5000, dictlist, timediff)
+# perc = calc_time_perc("01:13:54,830", "01:14:00,055")
+# new_sub_dict = adjust_time_rel(0, 974, dictlist, perc)
 
 
-# 971
-# 01:13:51,464 --> 01:13:54,830
-# Yeah, I guess they are, it's a shame.
-
-
+# 1
+# 00:00:57,500 --> 00:00:58,831
+# Hey, you!
 
 
 w = open("blab.srt", "w")
