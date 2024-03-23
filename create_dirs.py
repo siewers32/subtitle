@@ -4,7 +4,7 @@ def get_videos(files):
     videos = []
     for file in files:
         file_extension = os.path.splitext(file)[1]
-        if file_extension in ['.mp4', '.mkv']:
+        if file_extension in ['.mp4', '.mkv', '.pdf', '.epub', '.avi']:
             videos.append(file)
     return videos
 
@@ -38,8 +38,16 @@ def move_into_folders(folder_path, files):
     # print(list(dirs))
     for d in dirs:
         name = os.path.basename(d)
-        if os.path.isfile(f"{d}.mkv"):
-            os.rename(f"{d}.mkv", f"{d}/{name}.mkv")
+        # if os.path.isfile(f"{d}.pdf"):
+        #     os.rename(f"{d}.pdf", f"{d}/{name}.pdf")
+        # if os.path.isfile(f"{d}.epub"):
+        #     os.rename(f"{d}.epub", f"{d}/{name}.epub")
+        # if os.path.isfile(f"{d}.mkv"):
+        #     os.rename(f"{d}.mkv", f"{d}/{name}.mkv")
+        if os.path.isfile(f"{d}.mp4"):
+            os.rename(f"{d}.mp4", f"{d}/{name}.mp4")
+        # if os.path.isfile(f"{d}.avi"):
+        #     os.rename(f"{d}.avi", f"{d}/{name}.avi")
         if os.path.isfile(f"{d}.EN.srt"):
             os.rename(f"{d}.EN.srt", f"{d}/{name}.EN.srt")
         if os.path.isfile(f"{d}.NL.srt"):

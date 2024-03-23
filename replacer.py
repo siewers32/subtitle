@@ -8,6 +8,9 @@ to_replace = [
     '<c.cyan>',
     '<c.yellow>',
     '<c.color008000>',
+    '<font color="#808080">',
+    '<i>',
+    '</i>'
 ]
 
 for f in open("input.srt", "r"):
