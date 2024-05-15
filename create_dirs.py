@@ -42,8 +42,8 @@ def move_into_folders(folder_path, files):
         #     os.rename(f"{d}.pdf", f"{d}/{name}.pdf")
         # if os.path.isfile(f"{d}.epub"):
         #     os.rename(f"{d}.epub", f"{d}/{name}.epub")
-        # if os.path.isfile(f"{d}.mkv"):
-        #     os.rename(f"{d}.mkv", f"{d}/{name}.mkv")
+        if os.path.isfile(f"{d}.mkv"):
+            os.rename(f"{d}.mkv", f"{d}/{name}.mkv")
         if os.path.isfile(f"{d}.mp4"):
             os.rename(f"{d}.mp4", f"{d}/{name}.mp4")
         # if os.path.isfile(f"{d}.avi"):

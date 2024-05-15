@@ -1,6 +1,22 @@
 import os
 import calendar
 
+def convert_number_to_letters(n):
+    txt = []
+    number = int(n.strip(" "))
+    letters = addzero(number)
+    for i in letters:
+        txt.append(chr(int(i) + 97))
+    return "".join(txt)
+
+
+
+def addzero(a):
+    if a < 100:
+        return f"0{str(a)}"
+    else:
+        return str(a)
+
 def rename_files(folder_path, map):
     files = os.listdir(folder_path)
     counter = 97
@@ -9,15 +25,13 @@ def rename_files(folder_path, map):
         file_extension = os.path.splitext(file_name)[1]
         name = os.path.splitext(file_name)[0]
         # try:
-        if file_extension in ['.pdf', '.cbr']:                   
-            for i in range(3,6):
-                print(chr(int(name[i]) + 97))
-                txt.append(chr(int(name[i]) + 97))
-            print()
+        if file_extension in ['.pdf', '.cbr', '.txt']:                   
+            letters = convert_number_to_letters(name[8:11])
+            print(letters)
+
             # month = calendar.month_name[nr]
             # a = 96 + nr
-            new_filename = file_name.replace(name[3:6],"".join(txt))
-            txt = []
+            new_filename = file_name.replace(name[8:11], letters + " ")
             new_file_path = os.path.join(folder_path, new_filename)
             old_file_path = os.path.join(folder_path, file_name)        
             os.rename(old_file_path, new_file_path)

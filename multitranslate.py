@@ -14,7 +14,7 @@ def translate_files(folder_path):
             out_path = os.path.join(folder_path, file_name.replace("EN","NL"))
             # try:
             print(f"translating...{file_name}")
-            s.do_translate('english', 'dutch', file_path, out_path)
+            s.do_translate('croatian', 'dutch', file_path, out_path)
             # except: 
             #     print("no go")
 
