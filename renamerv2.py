@@ -15,10 +15,10 @@ def rename_files(folder_path, year):
         # file_extension = os.path.splitext(file_name)[1]
         name = os.path.splitext(file_name)[0]
         try:
-            # new_filename = file_name.replace(" 720p WEB-DL H264 BONE", "")
-            new_filename = f"{name}.mp4"
+            new_file = file_name.replace("2018", "XVIII")
+            # new_file = new_file.replace(" 25FPS", ".EN")
+            # new_filename = f"{name}.mp4"
             # new_filename = f"Luck {new_filename}"
-            # new_filename = f"Crepax {file_name}"
             # parts = new_filename.split(".")
             # new_parts = []
             # for part in parts:
@@ -30,9 +30,9 @@ def rename_files(folder_path, year):
 
             # # new_filename = f"{parts[2]}.{parts[1]}.df.pdf"
             old_file_path = os.path.join(folder_path, file_name)
-            new_file_path = os.path.join(folder_path, new_filename)     
-            os.rename(old_file_path, new_file_path)
-            print(f"Renamed {file_name} to {new_filename}")
+            new_file_path = os.path.join(folder_path, new_file)     
+            # os.rename(old_file_path, new_file_path)
+            print(f"Renamed {file_name} to {new_file}")
         except:
             print("no file")
 

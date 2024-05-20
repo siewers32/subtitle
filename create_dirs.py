@@ -4,7 +4,7 @@ def get_videos(files):
     videos = []
     for file in files:
         file_extension = os.path.splitext(file)[1]
-        if file_extension in ['.mp4', '.mkv']:
+        if file_extension in ['.mp4', '.mkv', '.avi']:
             videos.append(file)
     return videos
 
@@ -38,12 +38,16 @@ def move_into_folders(folder_path, files):
     # print(list(dirs))
     for d in dirs:
         name = os.path.basename(d)
-        if os.path.isfile(f"{d}.mkv"):
-            os.rename(f"{d}.mkv", f"{d}/{name}.mkv")
-        if os.path.isfile(f"{d}.EN.srt"):
-            os.rename(f"{d}.EN.srt", f"{d}/{name}.EN.srt")
+        # if os.path.isfile(f"{d}.mp4"):
+        #     os.rename(f"{d}.mp4", f"{d}/{name}.mp4")
+        # if os.path.isfile(f"{d}.mkv"):
+        #     os.rename(f"{d}.mkv", f"{d}/{name}.mkv")
+        if os.path.isfile(f"{d}.avi"):
+            os.rename(f"{d}.avi", f"{d}/{name}.avi")
         if os.path.isfile(f"{d}.NL.srt"):
             os.rename(f"{d}.NL.srt", f"{d}/{name}.NL.srt")
+        if os.path.isfile(f"{d}.EN.srt"):
+            os.rename(f"{d}.EN.srt", f"{d}/{name}.EN.srt")
        
     # for v in videos:
     #     org_file_path = os.path.join(folder_path, file_name)

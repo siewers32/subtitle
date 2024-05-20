@@ -8,15 +8,16 @@ def ff_files(folder_path):
     for file_name in files:
         file_extension = os.path.splitext(file_name)[1]
         name = os.path.splitext(file_name)[0]
-        file_path = os.path.join(folder_path, file_name)
-        out_path = os.path.join(folder_path, f"{name}.EN.srt")
-        try:
-            stream = ffmpeg.input(file_path)
-            stream = ffmpeg.output(stream, out_path)
-            ffmpeg.run(stream)
-        except ffmpeg.Error as e:
-            print(e.stderr, file=sys.stderr)
-            sys.exit(1)
+        if file_extension in [".mkv", ".mp4"]:
+            file_path = os.path.join(folder_path, file_name)
+            out_path = os.path.join(folder_path, f"{name}.EN.srt")
+            try:
+                stream = ffmpeg.input(file_path)
+                stream = ffmpeg.output(stream, out_path)
+                ffmpeg.run(stream)
+            except ffmpeg.Error as e:
+                print(e.stderr, file=sys.stderr)
+                sys.exit(1)
         # c = c + 1
         # try:
         #     # new_filename = file_name.replace(" 720p WEB-DL H264 BONE", "")
