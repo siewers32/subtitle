@@ -28,11 +28,11 @@ def rename_files(folder_path, map):
             old_file_path = os.path.join(folder_path, file_name)        
             os.rename(old_file_path, new_file_path)
             print(f"Renamed {file_name} to {new_filename}")
-        except ValueError as v:
-            print("File skipped")
-        except:
-            print("Something went wrong")
-
+        # except ValueError as v:
+            # print("File skipped")
+        # except:
+            # print("Something went wrong")
+# 
 
 # Vervang 'folder_path' met het pad naar de map waarin je de bestanden wilt hernoemen
 folder_path = 'input'
